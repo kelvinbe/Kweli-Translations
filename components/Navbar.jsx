@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Link } from 'react-scroll';
 
 const Links = ['About', 'Portfolio', 'Services', 'Goal', 'Blog', 'Contact'];
+console.log('updates')
 
 const NavLink = ({ children, to }) => {
   return (
